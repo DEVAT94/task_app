@@ -15,7 +15,7 @@ class MyStatelessWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text('Klick mich'),
+        Text('Hello Alex'),
         SizedBox(height: 20,),
         ElevatedButton(
           onPressed: () {},
@@ -23,7 +23,7 @@ class MyStatelessWidget extends StatelessWidget {
             foregroundColor: Colors.white,
             backgroundColor: Colors.deepPurple
             ),
-          child: Text('Hello Alex')
+          child: Text('Klick mich')
         )
       ],
     );
