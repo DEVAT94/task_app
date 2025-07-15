@@ -17,6 +17,7 @@ class MyNameWidget extends StatefulWidget {
 
 class _NameState extends State<MyNameWidget> {
   String name = '';
+  String buttonName = 'Name anzeigen';
 
   @override
   Widget build(BuildContext context) {
@@ -27,9 +28,10 @@ class _NameState extends State<MyNameWidget> {
             onPressed: () {
               setState(() {
                 name = '$State';
+                buttonName = 'Alex';
               });
             },
-            child: Text('Name anzeigen'))
+            child: Text(buttonName))
       ],
     );
   }

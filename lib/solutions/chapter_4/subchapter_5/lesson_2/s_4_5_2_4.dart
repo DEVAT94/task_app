@@ -23,15 +23,16 @@ class _ShowHideNameWidgetState extends State<ShowHideNameWidget> {
     return Column(
       children: [
         Text(name),
-        ElevatedButton(onPressed: () {
-          setState(() {
-            name = name == '' ? 'Alex' : '';
-            buttonText = buttonText == 'Name verstecken' ? 'Name anzeigen' : 'Name verstecken';
-          });
-        }, child: Text(
-          buttonText
-          
-          ))
+        ElevatedButton(
+            onPressed: () {
+              setState(() {
+                name = name == '' ? 'Alex' : '';
+                buttonText = buttonText == 'Name verstecken'
+                    ? 'Name anzeigen'
+                    : 'Name verstecken';
+              });
+            },
+            child: Text(buttonText))
       ],
     );
   }
