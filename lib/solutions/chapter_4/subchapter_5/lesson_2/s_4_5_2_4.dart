@@ -17,7 +17,7 @@ class ShowHideNameWidget extends StatefulWidget {
 
 class _ShowHideNameWidgetState extends State<ShowHideNameWidget> {
   String name = '';
-  String buttonText = 'Namen anzeigen';
+  String buttonText = 'Name anzeigen';
   @override
   Widget build(BuildContext context) {
     return Column(
