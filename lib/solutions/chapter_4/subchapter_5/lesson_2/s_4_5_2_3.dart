@@ -27,6 +27,7 @@ class _NameState extends State<MyNameWidget> {
         ElevatedButton(
             onPressed: () {
               setState(() {
+                
                 name = '$State';
                 buttonName = 'Alex';
               });
